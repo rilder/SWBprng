@@ -28,5 +28,5 @@ swbprng: ${LIB}main.o ${LIB}swbprng.o
 # Clean:
 
 clean:
-	rm swbprng ${LIB}*.o ${SRC}*~ ${INCLUDE}*~ *~
+	mkdir ${LIB}; rm swbprng ${LIB}*.o ${SRC}*~ ${INCLUDE}*~ *~
 
